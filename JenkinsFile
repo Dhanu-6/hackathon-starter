@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage( 'Git CheckOut' ) {
             steps {
-                git changelog: false, poll: false, url: 'https://github.com/sahat/hackathon-starter.git'
+                git changelog: false, poll: false, url: 'https://github.com/Dhanu-6/hackathon-starter'
             }
         }
         
